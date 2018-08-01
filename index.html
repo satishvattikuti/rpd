@@ -9,6 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
 </head>
 
 <body>
@@ -23,13 +25,17 @@
             </p>
             <h4>With An Accout You Can:</h4>
             <ul>
-                <li>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam.
-                    Sed arcu. Cras consequat.</li>
-                <li>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat.
-                    Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</li>
-                <li>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus.
-                    Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.</li>
-                <li>Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.</li>
+                <li>
+                    <i class="fas fa-home"></i> Save Your Favorite Listings </li>
+                <li>
+                    <i class="fas fa-search"></i> Save Searches with your important parameters </li>
+                <li>
+                    <i class="fas fa-sun"></i> Be Notified of new listings that meet your criteria</li>
+                <li>
+                    <i class="fas fa-bell"></i> Be notified of Changes to your saved listings such as price reduction or when a property goes of
+                    the market </li>
+                <li>
+                    <i class="fas fa-check"></i> Keep Track of home your recently viewed</li>
             </ul>
         </div>
         <div id="formclass">
@@ -47,7 +53,7 @@
                     <input type="password" placeholder="Create a password*">
                 </div>
                 <div id="checkbox">
-                    <input type="checkbox" id="agent"name="agent1">
+                    <input type="checkbox" id="agent" name="agent1">
                     <labe for="agent">I am currenly working with a Real Estate Firm Demo agent </label>
                 </div>
                 <br>
@@ -57,21 +63,25 @@
                     <option value="vw">VW</option>
                     <option value="audi" selected>Select an Agent</option>
                 </select>
-                <br></br><br>
+                <br></br>
+                <br>
                 <div class="robot">
                     <div class="g-recaptcha" data-sitekey="6LcKxGcUAAAAALCIm3InEiZyjsEPuK8c6qG5Iew1"></div>
                 </div>
                 <br/>
                 <br/>
-                <button>Create an Account</button>
+                <button>CREATE ACCOUNT </button>
+                <br>
             </form>
+            <br/>
             <hr>
             <div>
-
-                <p> Already have an account?
+                <p id="sign-in"> Already have an account?
                     <a href="/"> Sign In Here </a>
                 </p>
-                <a class="center" href="/"> Forgot your password ? </a>
+                <p id="password">
+                    <a class="center" href="/"> Forgot your password ? </a>
+                </p>
             </div>
         </div>
     </div>

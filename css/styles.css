@@ -1,172 +1,188 @@
+/* Body Styles */
 body {
-    font-family: 'Raleway', sans-serif;
-    line-height: 1.5;
-    padding: 0;
-    margin: 0;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
 }
 
+/* header styles  */
 header {
-    margin: 20px 20px;
-    font-size: 35px;
-    color: #0383b2;
+  margin: 20px 20px;
+  font-size: 35px;
+  color: #0383b2;
 }
 
 h1 {
-    color: #0383b2;
-    font-size: 35px;
-    font-weight: 400;
+  color: #0383b2;
+  font-size: 35px;
+  font-weight: 400;
 }
 
 .container {
-    margin: 20px 20px;
-    width: 100%;
+  margin: 20px 20px;
+  width: 100%;
 }
 
+/* main content class */
 #whyclass {
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 150px;
-    color: white;
-    width: 53%;
-    height: 100%;
-    background-color: #0383b2;
-    float: left;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 150px;
+  color: white;
+  width: 53%;
+  height: 100%;
+  background-color: #0383b2;
+  float: left;
 }
 
 #blue-header {
-    font-size: 28px;
-    color: white;
+  font-size: 28px;
+  color: white;
 }
 
 #blue-explain {
-    color: white;
-    font-size: 20px;
+  color: white;
+  font-size: 20px;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 ul li {
-    font-size: 18px;
-    margin-bottom: 5px;
+  font-size: 20px;
+  margin-left: -40px;
+  margin-bottom: 25px;
+}
+
+#sign-in, #password {
+    text-align: center;
 }
 
 #formclass {
-    /* margin-left:3%; */
-    /* padding: 10px; */
-    padding-left: 3%;
-    width: 38%;
-    float: left;
-    /* background-color: red; */
+  padding-left: 3%;
+  width: 38%;
+  float: left;
 }
 
 input[type="text"] {
-    width: 44%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-bottom: 20px;
-    resize: vertical;
+  width: 43%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  margin-bottom: 20px;
+  resize: vertical;
 }
 
 input[type="number"] {
-    width: 44%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-bottom: 20px;
-    resize: vertical;
+  width: 43%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  margin-bottom: 20px;
+  resize: vertical;
 }
 
 input[type="password"] {
-    width: 90%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-bottom: 20px;
-    resize: vertical;
+  width: 93%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  margin-bottom: 20px;
+  resize: vertical;
 }
 
 input[type="checkbox"] {
-    width: 30px;
-    height: 25px;
-    resize: vertical;
+  width: 30px;
+  height: 25px;
+  resize: vertical;
 }
 
 #checkbox {
-    display: flex
+  display: flex;
 }
 
 ::-webkit-input-placeholder {
-    color: #f44842;
-    font-weight: bold;
+  color: #f44842;
+  font-weight: bold;
 }
 
 button {
-    width: 90%;
-    margin-left: 3%;
-    background-color: #0383b2;
-    border: none;
-    border-radius: 2px;
-    height: 40px;
-    align-items: center;
-    color: white;
-    font-size: 20px;
+  width: 90%;
+  margin-left: 3%;
+  background-color: #0383b2;
+  border: none;
+  border-radius: 2px;
+  height: 40px;
+  align-items: center;
+  color: white;
+  font-size: 20px;
 }
 
 a {
-    text-decoration: none;
-    color: #0383b2;
+  text-decoration: none;
+  color: #0383b2;
 }
 
 select {
-    width: 98%;
-    height: 40px;
-    font-family: 'Raleway', sans-serif;
+  width: 98%;
+  height: 40px;
+  border: 2px solid #ccc;
+  font-family: "Raleway", sans-serif;
 }
 
 .robot {
-    align-content: center;
-    padding-left: 40px;
+  padding-left: 40px;
+}
+
+.signin {
+    width: 100%;
 }
 
 @media only screen and (max-width: 768px) {
-    header {
-        margin: 10px 10px;
-    }
-    .container {
-        display: flex;
-        width: 100%;
-        margin: 10px 10px;
-        flex-direction: column;
-    }
-    #whyclass {
-        order: 2
-    }
-    #formclass {
-        order: 1
-    }
-    #whyclass {
-        width: 95%;
-        padding: 10px 10px;
-    }
-    #formclass {
-        margin: 10px 5px;
-        float: left;
-        width: 90%;
-    }
-    input[type="text"] {
-        width: 90%;
-        margin-top: 0;
-    }
-    input[type="number"] {
-        width: 90%;
-    }
-    button {
-        width: 95%;
-    }
-    select {
-        width: 100%;
-        height: 40px;
-        font-family: 'Raleway', sans-serif;
-    }
+  header {
+    margin: 10px 10px;
+  }
+  .container {
+    display: flex;
+    width: 100%;
+    margin: 10px 10px;
+    flex-direction: column;
+  }
+  #whyclass {
+    order: 2;
+  }
+  #formclass {
+    order: 1;
+  }
+  #whyclass {
+    width: 95%;
+    padding: 10px 10px;
+  }
+  #formclass {
+    margin: 10px 5px;
+    float: left;
+    width: 90%;
+  }
+  input[type="text"] {
+    width: 90%;
+    margin-top: 0;
+  }
+  input[type="number"] {
+    width: 90%;
+  }
+  input[type="password"] {
+    width: 90%;
+  }
+  button {
+    width: 95%;
+  }
+  select {
+    width: 95%;
+    height: 40px;
+    font-family: "Raleway", sans-serif;
+  }
+  .robot {
+    align-content: center;
+    padding-left: 10px;
+  }
 }
